@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
   spec.add_dependency "rails"
-  spec.add_dependency "react-rails", "~> 1.3.2"
-  spec.add_dependency "bower-rails", "~> 0.10.0"
+  spec.add_dependency "react-rails"
+  spec.add_dependency "bower-rails", ">= 0.10.0"
   spec.add_dependency "browserify-rails", "~> 1.5.0"
 end
